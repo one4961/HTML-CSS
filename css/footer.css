@@ -1,0 +1,24 @@
+.footer{
+    height: 140px;
+    background-color: #575757;
+    text-align: center;
+    color: white;
+}
+
+.footer ul{
+    padding-top: 15px;
+}
+
+.footer ul li{
+    margin-bottom: 20px;
+}
+
+.footer .radius{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 20px;
+    border: solid 2px white;
+    border-radius: 10px;
+}

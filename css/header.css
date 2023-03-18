@@ -1,0 +1,67 @@
+@import url(style2.css);
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 750px;
+}
+
+.header .rland{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.header .rland h1{
+    position: absolute;
+    left: 5%;
+    top: 1%;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.header .rland p{
+    position: absolute;
+    right: 5%;
+    top: 0.5%;
+}
+
+.header .rland p :hover{
+    color: darkorange;
+    transform: scale(1.1);
+    transition: all 0.5s ease 0s;
+}
+
+.header section{
+    height: 700px;
+    background: linear-gradient(
+        to bottom,
+        rgba(20, 20, 20, 0) 10%,
+        rgba(20, 20, 20, 0.25) 25%,
+        rgba(20, 20, 20, 0.5) 50%,
+        rgba(20, 20, 20, 0.75) 75%,
+        rgba(20, 20, 20, 1) 100%
+    ), url(../images/9.jpg) no-repeat 0 0;
+    background-size: cover;
+    height: 700px;
+}
+
+.header .welcome{
+    text-align: center;
+}
+
+.header .welcome h1{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header .welcome h1 span{
+    font-size: 15px;
+    font-weight: 100;
+}

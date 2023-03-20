@@ -4,8 +4,17 @@ section{
 }
 
 section article{
-    height: 450px;
+    height: 300px;
     margin-bottom: 20px;
+}
+
+section article ul li{
+    margin-bottom: 10px;
+}
+
+section article ul li:first-child{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* article1 */
@@ -14,79 +23,71 @@ section .article1{
     padding-top: 30px;
 }
 
-section .article1 h1{
-    font-size: 25px;
-    font-weight: bold;
-    padding: 40px 0 0 30px;
-    margin-top: 0;
+section .article1 ul{
+    margin-left: 30px;
+    text-align: left;
 }
 
-section .article1 h1 span{
-    color: rgb(255, 0, 0);
+section .article1 li:first-child span{
+    color: red;
 }
 
-section .article1 p{
-    padding: 15px 0 0 30px;
-    font-size: 15px;
+section .article1 li:nth-child(2){
+    font-size: 12px;
 }
 
-section .article1 .img{
-    width: 300px;
-    padding: 20px 0 0 30px;
+section .article1 li:nth-child(3){
+    width: 250px;
 }
 
 /* article2 */
 section .article2{
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+section .article2 ul{
     text-align: center;
 }
 
-section .article2 h1{
-    font-size: 25px;
-    font-weight: bold;
-}
-
-section .article2 h1 span{
+section .article2 li:first-child span{
     color: orange;
 }
 
-section .article2 .img{
-    width: 300px;
-    position: relative;
+section .article2 li:nth-child(2){
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    padding: 20px 0;
+    width: 250px;
 }
 
-section .article2 p{
-    padding-top: 15px;
-    font-size: 15px;
+section .article2 li:nth-child(3){
+    font-size: 12px;
 }
 
 /* article3 */
 section .article3{
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+section .article3 ul{
+    margin-right: 30px;
     text-align: right;
 }
 
-section .article3 h1{
-    font-size: 25px;
-    font-weight: bold;
-    padding: 20px 30px 0 0;
+section .article3 li:first-child span{
+    color: brown;
 }
 
-section .article3 h1 span{
-    color: sienna;
+section .article3 li:nth-child(2){
+    font-size: 12px;
 }
 
-section .article3 p{
-    padding-top: 15px;
-    padding-right: 30px;
-    font-size: 15px;
-}
-
-section .article3 .img{
-    width: 300px;
-    padding-top: 20px;
-    padding-left: 33%;
+section .article3 li:nth-child(3){
+    position: absolute;
+    right: 3%;
+    width: 250px;
 }
 
 /* article4 */
@@ -107,10 +108,11 @@ section .article4 .tree{
 section .article4 h1{
     position: relative;
     top: -55%;
-    font-size: 28px;
+    font-size: 25px;
 }
 
 section .article4 p{
+    font-size: 15px;
     position: relative;
-    bottom: 8%;
+    bottom: 6%;
 }

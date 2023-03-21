@@ -1,33 +1,33 @@
-@import url(style2.css);
-
 header{
     position: relative;
     top: 0;
     left: 0;
-    height: 750px;
+    height: 700px;
 }
 
-.header .rland{
+.header .welcome .rland{
     background-color: black;
+    opacity: 70%;
     color: white;
     height: 50px;
 }
 
-.header .rland h1{
+.header .welcome .title{
     position: absolute;
-    left: 5%;
+    left: 10%;
     top: 1%;
     font-weight: bold;
     font-size: 25px;
 }
 
-.header .rland p{
+.header .welcome p{
     position: absolute;
     right: 5%;
-    top: 0.5%;
+    top: 1%;
+    font-size: 25px;
 }
 
-.header .rland p :hover{
+.header .welcome p :hover{
     color: darkorange;
     transform: scale(1.1);
     transition: all 0.5s ease 0s;
@@ -53,7 +53,7 @@ header{
 
 .header .welcome h1{
     position: absolute;
-    bottom: 5%;
+    bottom: 20%;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;

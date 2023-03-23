@@ -5,6 +5,10 @@ header{
     height: 700px;
 }
 
+.header .welcome{
+    color: white;
+}
+
 .header .welcome .rland{
     background-color: black;
     opacity: 70%;
@@ -14,7 +18,7 @@ header{
 
 .header .welcome .title{
     position: absolute;
-    left: 10%;
+    left: 50px;
     top: 1%;
     font-weight: bold;
     font-size: 25px;
@@ -22,7 +26,7 @@ header{
 
 .header .welcome p{
     position: absolute;
-    right: 5%;
+    right: 20px;
     top: 1%;
     font-size: 25px;
 }
@@ -33,7 +37,7 @@ header{
     transition: all 0.5s ease 0s;
 }
 
-.header section{
+.header .welcome{
     height: 700px;
     background: linear-gradient(
         to bottom,
